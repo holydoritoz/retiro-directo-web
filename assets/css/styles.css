@@ -110,7 +110,6 @@ hr.separator {
   margin-top: 3rem;
   background-color: #EFF4F6;
   padding: 2rem;
-  border-radius: 23px;
 }
 
 .services i {
@@ -123,7 +122,14 @@ hr.separator {
 }
 
 footer {
+  color: white;
   background-color: var(--blue);
+  height: auto;
+}
+
+.footer-nav a{
+  text-decoration: none;
+  color: var(--bnt-color);
 }
 
 .dev-contact{

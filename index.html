@@ -29,8 +29,8 @@
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto fs-6">
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto fs-6 ">
           <li class="nav-item">
             <a class="nav-link" href="#">Inicio</a>
           </li>
@@ -52,20 +52,18 @@
         <div class="col-md-6 col-lg-6">
           <img src="./assets/img/main-pic.jpg" class="img-fluid rounded-start" alt="...">
         </div>
-        <div class="col-md-6 col-lg-6">
-          <div class="d-flex justify-content-center align-items-center">
+        <div class="col-md-6 col-lg-6 d-flex justify-content-center align-items-center text-center">
             <div class="d-flex flex-column align-items-center">
-              <h1 class="fw-bold"><span style="color:#4267B2">Import & Export</span>
+              <h1 class="fw-bold fs-1"><span style="color:#4267B2">Import & Export</span>
                 <span style="color:#F94D53">+10 Años </span>Conectando Mercados
               </h1>
-              <p>Con más de 10 años de trayectoria en el sector, Retiro Directo es una empresa líder en servicios
+              <p class="text-dark">Con más de 10 años de trayectoria en el sector, Retiro Directo es una empresa líder en servicios
                 logísticos
                 integrales. Nuestro enfoque se centra en proporcionar soluciones personalizadas y eficientes para
                 reducir los
                 costos al mínimo.</p>
               <a href="#"><button class="btn btn-danger" type="submit">Contacto</button></a>
             </div>
-          </div>
         </div>
       </div>
     </div>
@@ -79,8 +77,7 @@
     <div class="separator-container">
       <div class="separator"></div>
     </div>
-
-    <p>Experiencia logística sin preocupaciones</p>
+    <h5 class="text-secondary p-3 fw-bold">Experiencia logística sin preocupaciones</h5>
     <div class="container d-flex justify-content-center flex-wrap w-100 gap-3">
       <div class="card-container d-flex align-items-center fw-bold bg-green">
         <div class="number d-flex justify-content-start align-items-center"><span>1</span><i class="bi bi-flag"></i></div>
@@ -109,12 +106,11 @@
   <br>
   <section class="container d-flex flex-column align-items-center mt-2" id="expertice">
     <h1>¿Porqué nosotros?</h1>
-
     <div class="separator-container">
       <div class="separator"></div>
     </div>
-
-    <div class="container">
+    <h5 class="text-secondary p-3 fw-bold">+230 operaciones mensuales</h5>
+    <div class="container p-3">
       <div class="row">
         <div class="col">
           <figure>
@@ -160,11 +156,10 @@
   <br>
   <section class="container services text-center" id="services">
     <h1>Servicios</h1>
-
     <div class="separator-container">
       <div class="separator"></div>
     </div>
-
+    <h5 class="text-secondary p-3 fw-bold">Nos movemos como pez en el agua en:</h5>
     <div class="row g-2 mt-2">
       <div class="col-12 col-md-12 col-lg-6">
         <div class="card c-wrapper">
@@ -172,7 +167,7 @@
           <div class="card-body">
             <i class="bi bi-patch-check-fill"></i>
             <h2 class="card-title">Importaciones</h2>
-            <p class="card-text">
+            <p class="card-text text-dark">
               Nuestro servicio de importación está diseñado para agilizar y simplificar el despacho de tus
               mercancías, garantizando que cumplan con todas las regulaciones y requisitos aduaneros.
             </p>
@@ -192,7 +187,7 @@
           <div class="card-body">
             <i class="bi bi-patch-check-fill"></i>
             <h2 class="card-title">Exportaciones</h2>
-            <p class="card-text">
+            <p class="card-text text-dark">
               Permítenos llevar
               tus cargas a cualquier parte del mundo, facilitando el crecimiento de tu negocio y alcanzando nuevos
               horizontes internacionales.
@@ -210,15 +205,27 @@
     </div>
   </section>
   
-  <section class="mt-2">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7917.5295193026695!2d-70.65371940452039!3d-33.45162271411979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c570b209b97d%3A0xfc98bd871585039f!2sArturo%20Prat%20407%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1695089638690!5m2!1ses-419!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </section>
-  
-  <footer class="container-fluid mt-2">
-    asdasd
+  <footer class="container mt-2 bg-light d-flex flex-wrap justify-content-around p-3">
+    <div class="container d-flex flex-column align-items-center justify-content-center w-50">
+      <div class="footer-nav">
+        <h3 class="text-dark">Retiro Directo SpA</h3>
+        <p class="text-dark">Av. Andrés Bello Nº 2233 Of. 1003</p>
+        <p class="text-dark">Providencia (Metro Los Leones)</p>
+        <p class="text-dark">CP 7510056 Santiago, Chile</p>
+        <div class="footer-contact d-flex flex-column">
+          <a href="#">Email: contacto@retirodirecto.cl</a>
+          <a href="#">Teléfono: (+569)5555555</a>
+        </div>
+        </div>
+    </div>
+    <div class="container w-50">
+      <section class="container mt-1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7917.5295193026695!2d-70.65371940452039!3d-33.45162271411979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c570b209b97d%3A0xfc98bd871585039f!2sArturo%20Prat%20407%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1695089638690!5m2!1ses-419!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </div>
   </footer>
 
-  <div class="container-fluid dev-contact d-flex justify-content-center align-items-center text-white">
+  <div class="container dev-contact d-flex justify-content-center align-items-center text-white">
     © 2023 Retiro directo | Sitio desarrollado por
     <a href="#"><img src="./assets/img/Logo.png" alt=""></a>
 
