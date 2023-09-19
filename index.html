@@ -34,17 +34,11 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Inicio</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Servicios
-            </a>
-            <ul class="dropdown-menu fs-6">
-              <li><a class="dropdown-item" href="#">Importaciones</a></li>
-              <li><a class="dropdown-item" href="#">Exportaciones</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#expertice">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Experiencia</a>
+            <a class="nav-link" href="#services">Servicios</a>
           </li>
         </ul>
         <button class="btn btn-danger">Contacto</button>
@@ -58,11 +52,12 @@
         <div class="col-md-6 col-lg-6">
           <img src="./assets/img/main-pic.jpg" class="img-fluid rounded-start" alt="...">
         </div>
-        <div class="col-md-6 col-lg-6 main-text">
-          <div class="card-body">
-            <div class="main-text">
-              <h1><span style="color:#4267B2">Tu socio logístico integral</span> con más de <span style="color:#F94D53">
-                  10 años de experiencia.</span></h1>
+        <div class="col-md-6 col-lg-6">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="d-flex flex-column align-items-center">
+              <h1 class="fw-bold"><span style="color:#4267B2">Import & Export</span>
+                <span style="color:#F94D53">+10 Años </span>Conectando Mercados
+              </h1>
               <p>Con más de 10 años de trayectoria en el sector, Retiro Directo es una empresa líder en servicios
                 logísticos
                 integrales. Nuestro enfoque se centra en proporcionar soluciones personalizadas y eficientes para
@@ -75,42 +70,50 @@
       </div>
     </div>
   </section>
-
-  <section class="container info bg-blue">
-    <p>Si buscas un socio logístico de confianza con una sólida experiencia en el sector, Retiro Directo es la
-      elección
-      ideal. Permítenos facilitar tu comercio internacional y llevar tus operaciones al siguiente nivel.</p>
-  </section>
-
-  <section class="container the-process">
+  <br>
+  <hr class="separator">
+  <br>
+  <section class="container d-flex flex-column align-items-center mt-2">
     <h1>El proceso</h1>
+
+    <div class="separator-container">
+      <div class="separator"></div>
+    </div>
+
     <p>Experiencia logística sin preocupaciones</p>
-    <div class="container cards">
-      <div class="card-container bg-green">
-        <div class="number"><span>1</span><i class="bi bi-flag"></i></div>
-        <div class="card-info">
+    <div class="container d-flex justify-content-center flex-wrap w-100 gap-3">
+      <div class="card-container d-flex align-items-center fw-bold bg-green">
+        <div class="number d-flex justify-content-start align-items-center"><span>1</span><i class="bi bi-flag"></i></div>
+        <div class="text-white fw-bold">
           <p>Asesoría especializada en todos los aspectos relacionados con aduanas, regulaciones y trámites de
             importación y exportación.</p>
         </div>
       </div>
-      <div class="card-container bg-blue">
-        <div class="number"><span>2</span><i class="bi bi-cart3"></i></i></div>
-        <div class="card-info">
+      <div class="card-container d-flex align-items-center fw-bold bg-blue">
+        <div class="number d-flex justify-content-start align-items-center"><span>2</span><i class="bi bi-cart3"></i></i></div>
+        <div class="text-white fw-bold">
           <p>Obten una cotización personalizada. Contáctanos y proporciona los detalles de tu operación.</p>
         </div>
       </div>
-      <div class="card-container bg-red">
-        <div class="number"><span>3</span><i class="bi bi-box-seam"></i></div>
-        <div class="card-info">
+      <div class="card-container d-flex align-items-center fw-bold bg-red">
+        <div class="number d-flex justify-content-start align-items-center"><span>3</span><i class="bi bi-box-seam"></i></div>
+        <div class="text-white fw-bold">
           <p>Una vez que estés satisfecho con nuestra propuesta y asesoramiento, iniciaremos el proceso logístico sin
             demoras.</p>
         </div>
       </div>
     </div>
   </section>
-
-  <section class="container why-us">
+  <br>
+  <hr class="separator">
+  <br>
+  <section class="container d-flex flex-column align-items-center mt-2" id="expertice">
     <h1>¿Porqué nosotros?</h1>
+
+    <div class="separator-container">
+      <div class="separator"></div>
+    </div>
+
     <div class="container">
       <div class="row">
         <div class="col">
@@ -152,12 +155,19 @@
     </div>
     <a href="#"><button class="btn btn-danger">Contacto</button></a>
   </section>
-
-  <section class="container services text-center">
+  <br>
+  <hr class="separator">
+  <br>
+  <section class="container services text-center" id="services">
     <h1>Servicios</h1>
-    <div class="row">
+
+    <div class="separator-container">
+      <div class="separator"></div>
+    </div>
+
+    <div class="row g-2 mt-2">
       <div class="col-12 col-md-12 col-lg-6">
-        <div class="card" style="width: 100%;">
+        <div class="card c-wrapper">
           <img src="./assets/img/import-vector.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <i class="bi bi-patch-check-fill"></i>
@@ -168,20 +178,16 @@
             </p>
           </div>
           <ul class="list-group list-group-flush">
-
             <li class="list-group-item"></i>Asesoría y RevisiónDocumental</li>
             <li class="list-group-item">Fletes Internacionales</li>
             <li class="list-group-item">Agenciamiento Aduanero</li>
             <li class="list-group-item">Seguros de embarques</li>
             <li class="list-group-item">Transporte Terrestre</li>
           </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Más información</a>
-          </div>
         </div>
       </div>
       <div class="col-12 col-md-12 col-lg-6">
-        <div class=" card" style="width: 100%;">
+        <div class="card c-wrapper">
           <img src="./assets/img/export-vector.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <i class="bi bi-patch-check-fill"></i>
@@ -199,17 +205,27 @@
             <li class="list-group-item">Seguros de embarques</li>
             <li class="list-group-item">Transporte Terrestre</li>
           </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Más información</a>
-          </div>
         </div>
       </div>
     </div>
   </section>
+  
+  <section class="mt-2">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7917.5295193026695!2d-70.65371940452039!3d-33.45162271411979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c570b209b97d%3A0xfc98bd871585039f!2sArturo%20Prat%20407%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1695089638690!5m2!1ses-419!2scl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  
+  <footer class="container-fluid mt-2">
+    asdasd
+  </footer>
 
+  <div class="container-fluid dev-contact d-flex justify-content-center align-items-center text-white">
+    © 2023 Retiro directo | Sitio desarrollado por
+    <a href="#"><img src="./assets/img/Logo.png" alt=""></a>
+
+  </div>
   <!--CÓDIGO CON EL LINK DE WHATSAPP API-->
   <a href="https://api.whatsapp.com/send?phone=56987960574&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Risi.cl."
-    class="floatWapp" target="_blank">
+    class="floatWapp d-flex flex-column align-items-center justify-content-center" target="_blank">
     <i class="bi bi-whatsapp   my-floatWapp"></i>
   </a>
   <!-- Bootstrap 5.3.0 -->
