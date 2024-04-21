@@ -7,12 +7,15 @@
   --bnt-color: #F94D53;
 }
 
-body {
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   background-color: white;
   font-family: 'Inter', sans-serif;
-
 }
 
 .separator-container {
@@ -54,6 +57,11 @@ body {
 
 .main .card {
   border: none;
+}
+
+.btn-contact {
+  background-color: #333FF2;
+  color: white;
 }
 
 hr.separator {
@@ -106,12 +114,6 @@ hr.separator {
   margin-top: 3rem;
 }
 
-.services {
-  margin-top: 3rem;
-  background-color: #EFF4F6;
-  padding: 2rem;
-}
-
 .services i {
   font-size: 30px;
   color: #59ed9c;
@@ -123,7 +125,6 @@ hr.separator {
 
 footer {
   color: white;
-  background-color: var(--blue);
   height: auto;
 }
 
@@ -158,3 +159,4 @@ footer {
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
+
